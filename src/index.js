@@ -1,8 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { TodoApp } from './TodoApp';
 
 render(
-  <h2>あああ</h2>,
+  <TodoApp />,
   document.getElementById('root')
 );
 
